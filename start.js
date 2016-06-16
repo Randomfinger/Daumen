@@ -4,6 +4,6 @@
 */
 var checkThumb = function(inp, lang){
   if(inp && lang=='en' || !lang){return 'Thump is up!'}
-  else if(inp && lang='de'){return 'Daumen ist oben'}
+  else if(inp && lang=='de'){return 'Daumen ist oben'}
   else{return 'down. :('}
 }
